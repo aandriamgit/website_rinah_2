@@ -1,7 +1,7 @@
 .header
 {
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-between;
 	align-items: center;
 	padding-top: 2rem;
 	padding-bottom: 2rem;
@@ -91,7 +91,7 @@
 	
 	.header__link:hover
 	{
-		color: var(--color-mauve);
+		color: var(--color-red);
 	}
 
 }
