@@ -4,9 +4,14 @@
 	justify-content: space-between;
 	align-items: center;
 	padding-top: 2rem;
+	right: 0;
+	left: 0;
 	padding-bottom: 2rem;
 	position: relative;
 	z-index: 9999;
+	position: fixed;
+	width: 100%;
+	background-color: var(--color-dark);
 }
 
 .header__menu

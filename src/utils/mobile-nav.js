@@ -4,7 +4,9 @@ const mobile_nav = () =>
 	let mobil_nav;
 	let flag;
 	let window_width;
+	let mobile_nav_link;
 
+	mobile_nav_link = document.querySelectorAll('.mobile-nav__link');
 	header__bars = document.querySelector('.header__bars');
 	mobil_nav = document.querySelector('.mobile-nav');
 	flag = false;
@@ -21,6 +23,14 @@ const mobile_nav = () =>
 		window_width = window.innerWidth;
 		if (window_width >= 768)
 			mobil_nav.style.display = 'none'
+	});
+	mobile_nav_link.forEach(link =>
+	{
+		link.addEventListener('click', () => 
+		{
+			flag = false;
+			mobil_nav.style.display = 'none';
+		});
 	});
 };
 

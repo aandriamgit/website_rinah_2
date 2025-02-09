@@ -5,7 +5,8 @@
 	justify-content: center;
 	align-items: center;
 	gap: var(--size-5xl);
-	margin-top: var(--size-xxl);
+	margin-top: var(--size-xl);
+	padding-top: var(--size-10xl);
 }
 
 .hero__box
@@ -108,7 +109,7 @@
 	{
 		margin-top: var(--size-5xl);
 		justify-content: space-evenly;
-		padding-top: var(--size-8xl);
+		padding-top: var(--size-10xl);
 		padding-bottom: var(--size-8xl);
 	}
 
