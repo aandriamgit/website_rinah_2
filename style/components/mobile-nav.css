@@ -1,0 +1,39 @@
+.mobile-nav
+{
+	position: fixed;
+	border: 1px solid var(--color-blue);
+	top: 0;
+	left: 0;
+	z-index: 999;
+	height: 45%;
+	width: 100%;
+	background-color: var(--color-dark);
+	display: none;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.mobile-nav__menu
+{
+	list-style: none;
+	padding: 0;
+	margin-top: 5rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: var(--size-base);
+}
+
+.mobile-nav__link
+{
+	text-decoration: none;
+	color: var(--color-light);
+	transition: color 0.3s;
+}
+
+.mobile-nav__link:hover
+{
+	color: var(--color-red);
+}
