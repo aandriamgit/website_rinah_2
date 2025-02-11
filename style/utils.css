@@ -113,15 +113,97 @@
 	/* border: 1px solid var(--color-red); */
 }
 
+.from_top
+{
+	transform: translateY(-50%);
+}
+
+.from_bottom
+{
+	transform: translateY(+50%);
+}
+
+.from_left
+{
+	transform: translateX(-5%);
+}
+
+.from_right
+{
+	transform: translateX(+10%);
+}
+
 .on_scroll
 {
 	opacity: 0;
-	transition: all 2s;
+	filter: blur(1.5px);
+	transition: transform 2s, opacity 1s, filter 1s;
+}
+
+@media(prefers-reduced-motion)
+{
+	.on_scroll
+	{
+		transition: none;
+	}
 }
 
 .show
 {
 	opacity: 1;
+	filter: blur(0);
+	transform: translateX(0);
+	transform: translateY(0);
+}
+
+.team_box2:nth-child(2)
+{
+	transition-delay: 200ms;
+}
+
+.team_box2:nth-child(3)
+{
+	transition-delay: 400ms;
+}
+
+.tb1:nth-child(2)
+{
+	transition-delay: 200ms;
+}
+
+.tb1:nth-child(3)
+{
+	transition-delay: 400ms;
+}
+
+.tb1:nth-child(4)
+{
+	transition-delay: 600ms;
+}
+
+.ssbtwo:nth-child(2)
+{
+	transition-delay: 200ms;
+}
+
+.ssbtwo:nth-child(3)
+{
+	transition-delay: 400ms;
+}
+
+.faq-box__accordion:nth-child(1)
+{
+	transition-delay: 100ms;
+}
+
+.faq-box__accordion:nth-child(2)
+{
+	transition-delay: 200ms;
+}
+
+.faq-box__accordion:nth-child(3)
+{
+	transition-delay: 400ms;
 }
 
 .section
