@@ -116,7 +116,7 @@
 .on_scroll
 {
 	opacity: 0;
-	transition: all 1s;
+	transition: all 2s;
 }
 
 .show
