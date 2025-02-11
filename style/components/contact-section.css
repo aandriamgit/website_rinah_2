@@ -1,0 +1,45 @@
+.contact-section
+{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+	margin-top: 1.5rem;
+	padding-top: 2rem;
+}
+
+.contact-section__minibox
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 2rem;
+}
+
+.contact-section__icon
+{
+	height: 2rem;
+	width: auto;
+	color: var(--color-red);
+	margin-bottom: 1.5rem;
+}
+
+.contact-section__title
+{
+	font-weight: 600;
+	font-size: 1.5rem;
+}
+
+@media (min-width: 768px)
+{
+	.contact-section
+	{
+		flex-direction: row;
+	}
+
+	.contact-section__minibox
+	{
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
+}

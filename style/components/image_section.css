@@ -1,0 +1,50 @@
+.image_section
+{
+	margin-top: 1.5rem;
+	padding-top: 2rem;
+	display: flex;
+	justify-content: center;
+}
+
+.image_section__img
+{
+	width: 80rem;
+	height: auto;
+	border-radius: 0.4rem;
+}
+
+/* @media (min-width: 320px) */
+/* { */
+/**/
+/* } */
+/**/
+/* @media (min-width: 375px) */
+/* { */
+/**/
+/* } */
+/**/
+/* @media (min-width: 425px) */
+/* { */
+/**/
+/* } */
+/**/
+/* @media (min-width: 768px) */
+/* { */
+/**/
+/* } */
+/**/
+/* @media (min-width: 1024px) */
+/* { */
+/**/
+/* } */
+/**/
+/* @media (min-width: 1440px) */
+/* { */
+/**/
+/* } */
+/**/
+/* @media (min-width: 1440px) */
+/* { */
+/**/
+/* } */
+

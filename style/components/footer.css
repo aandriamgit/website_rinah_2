@@ -8,6 +8,7 @@
 	align-items: center;
 	text-align: center;
 	gap: var(--size-5xl);
+	border-top: 1px solid var(--color-red);
 }
 
 .footer__title
@@ -57,11 +58,15 @@
 /**/
 /* } */
 /**/
-/* @media (min-width: 1024px) */
-/* { */
-/**/
-/* } */
-/**/
+
+@media (min-width: 1024px)
+{
+	.footer
+	{
+		margin-top: 10rem;
+	}
+}
+
 /* @media (min-width: 1440px) */
 /* { */
 /**/

@@ -1,0 +1,224 @@
+.team
+{
+	padding-top: var(--size-7xl);
+	text-align: center;
+	align-items: center;
+}
+
+.team__box1
+{
+	display: flex;
+	flex-direction: column;
+	gap: var(--size-xl);
+	padding-bottom: var(--size-4xl);
+}
+
+.team__box1__subtitle
+{
+	text-transform: uppercase;
+	font-size: 1.1rem;
+}
+
+.team__box1__title
+{
+	font-size: 2rem;
+	font-weight: 550;
+	color: var(--color-red);
+}
+
+.team__box1__text
+{
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+.team__box1__button
+{
+	padding-top: var(--size-base);
+}
+
+.team__box2
+{
+	padding-top: 1rem;
+	padding-bottom: 3rem;
+	display: flex;
+	flex-direction: column;
+	gap: var(--size-3xl);
+	align-items: center;
+}
+
+.team__box2__img
+{
+	width: 10rem;
+	height: auto;
+	border-radius: 10rem;
+}
+
+.team__box2__content
+{
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+}
+
+.team__box2__name
+{
+	font-weight: 550;
+	font-size: 1.4rem;
+	transition: all 0.3s;
+}
+
+.team__box2__name:hover
+{
+	color: var(--color-yellow);
+}
+
+
+.team__box2__job
+{
+	padding-top: 0.2rem;
+	padding-left:3.5rem;
+	padding-right: 3.5rem;
+	font-size: 0.75rem;
+}
+
+.team__box2__text
+{
+	padding-left:3.5rem;
+	padding-right: 3.5rem;
+	font-size: 0.75rem;
+}
+
+.team__box2__links
+{
+	display: flex;
+	flex-direction: row;
+	gap: 1rem;
+	margin-left: 0;
+	margin-right: 0;
+	text-align: center;
+    justify-content: center;
+}
+
+/* @media (min-width: 320px) */
+/* { */
+/**/
+/* } */
+/**/
+/* @media (min-width: 375px) */
+/* { */
+/**/
+/* } */
+/**/
+/* @media (min-width: 425px) */
+/* { */
+/**/
+/* } */
+/**/
+@media (min-width: 768px)
+{
+	.team
+	{
+		display: flex;
+		flex-direction: row;
+	}
+	
+	.team__box1
+	{
+		text-align: left;
+		padding-left: 1rem;
+		padding-right: 3rem;
+	}
+
+	.team__box1__title
+	{
+		font-size: 3rem;
+	}
+
+	.team__box1__text
+	{
+		padding-left: 0;
+	}
+
+	.team__box1__button
+	{
+		font-size: 1.1rem;
+	}
+
+	.team__box2
+	{
+		display: flex;
+		flex-direction: row;
+		top: 0;
+        align-items: flex-start;
+	}
+
+	.team__box2__img
+	{
+		margin-top: 0.5rem;
+		padding-top: 0rem;
+		width: 6.5rem;
+	}
+
+	.team__box2__content
+	{
+		text-align: left;
+		padding-left: 0rem;
+	}
+
+	.team__box2__links
+	{
+		justify-content: flex-start;
+	}
+
+	.tbc
+	{
+		text-align: left;
+		margin-left: 0;
+		margin-right: 0;
+		padding-left: 0;
+	}
+}
+
+@media (min-width: 1024px)
+{
+	.team__box2__img
+	{
+		width: 8.6rem;
+	}
+}
+
+@media (min-width: 1440px)
+{
+	.team
+	{
+		align-items: flex-start;
+	}
+
+	.team__box2__img
+	{
+		margin-top: 0rem;
+		width: 11rem;
+	}
+
+	.team__box2__name
+	{
+		font-size: 1.7rem;
+	}
+
+	.team__box2__job
+	{
+		font-size: 1rem;
+	}
+
+	.team__box2__text
+	{
+		font-size: 1rem;
+	}
+}
+
+/* @media (min-width: 1440px) */
+/* { */
+/**/
+/* } */
+

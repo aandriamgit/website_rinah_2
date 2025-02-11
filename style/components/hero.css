@@ -79,6 +79,8 @@
 	{
 		flex-direction: row;
 		justify-content: space-around;
+		padding-top: 20rem;
+		padding-bottom: 12rem;
 	}
 
 	.hero__box
@@ -107,10 +109,9 @@
 {
 	.hero
 	{
-		margin-top: var(--size-5xl);
 		justify-content: space-evenly;
-		padding-top: var(--size-10xl);
-		padding-bottom: var(--size-8xl);
+		padding-top: 20rem;
+		padding-bottom: 16rem;
 	}
 
 	.hero__image
@@ -124,6 +125,21 @@
 	{
 		padding-right: var(--size-5xl);
 		padding-left: var(--size-5xl);
+	}
+
+	.hero__title
+	{
+		font-size: var(--size-4xl);
+	}
+
+	.hero__text
+	{
+		font-size: var(--size-xl);
+	}
+
+	.hero__calltoaction
+	{
+		font-size: var(--size-base);
 	}
 }
 

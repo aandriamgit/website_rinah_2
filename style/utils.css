@@ -84,7 +84,6 @@
 	color: var(--color-light);
 	border-color: var(--color-light);
 	border-width: 0.125rem;
-	/* box-shadow: 0 14px 20px rgba(205, 214, 244, 0.5), 0 6px 6px rgba(205, 214, 244, 0.5), 0 0 100px -10px var(--color-light) ; */
 }
 
 .white_btn:hover
