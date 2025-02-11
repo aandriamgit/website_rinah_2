@@ -56,11 +56,6 @@
 	margin-top: 2rem;
 }
 
-html.sr .faq-box__accordion
-{
-	visibility: hidden;
-}
-
 .faq-box__accordion
 {
 	display: flex;

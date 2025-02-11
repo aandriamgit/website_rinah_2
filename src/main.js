@@ -15,8 +15,8 @@ import '../style/utils.css';
 
 import mobile_nav from './utils/mobile-nav';
 import faqs from './utils/faq';
-import scrollreveal from './utils/scrollreveal.js';
+import ScrollReveal from './utils/my_scrollreveal.js';
 
-scrollreveal(); 
+ScrollReveal();
 mobile_nav();
 faqs();

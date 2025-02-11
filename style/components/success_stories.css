@@ -9,11 +9,6 @@
 	gap: 1rem;
 }
 
-html.sr .ssbone
-{
-	visibility: hidden;
-}
-
 .success_story__box1
 {
 	display: flex;
