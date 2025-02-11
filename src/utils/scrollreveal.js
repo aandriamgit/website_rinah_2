@@ -2,7 +2,8 @@ import scrollreveal from 'scrollreveal';
 
 scrollreveal
 ({
-	distance: '60px',
+	reset: true,
+	distance: '30px',
 	duration: 1500,
 });
 
