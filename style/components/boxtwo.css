@@ -5,7 +5,6 @@
 	align-items: center;
 	text-align: center;
 	margin-top: var(--size-xxl);
-	margin-bottom: 17rem;
 }
 
 .boxtwo__title
@@ -59,6 +58,7 @@
 	{
 		padding-left: var(--size-10xl);
 		padding-right: var(--size-10xl);
+		margin-bottom: 17rem;
 	}
 }
 
