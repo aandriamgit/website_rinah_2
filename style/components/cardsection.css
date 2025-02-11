@@ -6,11 +6,11 @@
 	padding-bottom: 10rem;
 	padding-top: 1rem;
 }
-
-html.sr .card
-{
-	visibility: hidden;
-}
+/**/
+/* html.sr .card */
+/* { */
+/* 	visibility: hidden; */
+/* } */
 
 html.sr .minicard
 {
