@@ -3,7 +3,7 @@ import scrollreveal from 'scrollreveal';
 scrollreveal
 ({
 	distance: '60px',
-	duration: 1500,
+	duration: 2000,
 });
 
 scrollreveal().reveal('.ooo', {delay: 300, origin: 'left', interval: 300});
