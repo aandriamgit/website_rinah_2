@@ -5,6 +5,11 @@
 	align-items: center;
 }
 
+html.sr .ooo
+{
+	visibility: hidden;
+}
+
 .team__box1
 {
 	display: flex;

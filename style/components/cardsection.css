@@ -7,6 +7,16 @@
 	padding-top: 1rem;
 }
 
+html.sr .card
+{
+	visibility: hidden;
+}
+
+html.sr .minicard
+{
+	visibility: hidden;
+}
+
 .card
 {
 	padding-top: 1rem;
