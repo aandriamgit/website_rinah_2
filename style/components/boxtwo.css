@@ -7,11 +7,6 @@
 	margin-top: var(--size-xxl);
 }
 
-html.sr .two
-{
-	visibility: hidden;
-}
-
 .boxtwo__title
 {
 	margin: var(--size-xxl);
