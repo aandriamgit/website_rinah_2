@@ -1,3 +1,16 @@
+@import './components/header.css';
+@import './components/hero.css';
+@import './components/boxtwo.css';
+@import './components/footer.css';
+@import './components/mobile-nav.css';
+@import './components/cardsection.css';
+@import './components/team.css';
+@import './components/image_section.css';
+@import './components/success_stories.css';
+@import './components/faq.css';
+@import './components/contact-section.css';
+@import './utils.css';
+
 :root
 {
 	--color-light: #cdd6f4;
