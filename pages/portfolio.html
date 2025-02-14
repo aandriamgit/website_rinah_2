@@ -3,9 +3,65 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>lol</title>
+    	<link rel="icon" type="image/x-icon" href="../public/favicon.ico" />
+		<link href="https://api.fontshare.com/v2/css?f[]=poppins@400,500,600,700&display=swap" rel="stylesheet">
+		<script type="module" src="../src/main.js"></script>
+		<title>Portfolio</title>
 	</head>
 	<body>
-		<h2>hello</h2>
+	  <header class="header container">
+		  <a href="../index.html">
+			  <img class="header__logo" src="../public/logo.png" alt="Wall Service">
+		  </a>
+		  <nav>
+		  	<ul class="header__menu">
+		  		<li> <a class="header__link" href="#">Portfolio</a></li>
+		  		<li> <a class="header__link" href="#">Services</a></li>
+		  		<li> <a class="header__link" href="#">À propos</a></li>
+		  		<li> <a class="header__link" href="#">Contact</a></li>
+		  	</ul>
+		  </nav>
+		  <button class="header__bars">
+			<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" >
+  				<path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+			</svg>
+		  </button>
+		  <button class="header__call_to_action custom_btn blue_btn"><a href="#"></a>
+			  Get Started
+		  </button>
+	  </header>
+	  <div class="mobile-nav">
+		  <nav>
+		  	<ul class="mobile-nav__menu">
+				<li>
+					<a href="#" class="mobile-nav__link">Portfolio<a/>
+				</li>
+				<li>
+					<a href="#" class="mobile-nav__link">Services<a/>
+				</li>
+				<li>
+					<a href="#" class="mobile-nav__link">a propos<a/>
+				</li>
+				<li>
+					<a href="#" class="mobile-nav__link">Contact<a/>
+				</li>
+		  	</ul>
+		  </nav>
+	  </div>
+	  <main>
+	  	<h1 class="container">hello there</h1>
+	  </main>
+	  <footer class="footer container section">
+		<h2 class="footer__title">© 2025 WAL Services. All rights reserved.</h2>
+		<div class="footer__cgu">
+			<a href="#" class="footer__tec">Terms & Conditions</a>
+			<a href="#" class="footer__pp">Privacy Policy</a>
+		</div>
+		<div class="footer__links">
+			<a href="https://web.facebook.com/" target="_blank"><img class="footer__icons" src="../public/facebook_icon.svg" alt="facebook icon"></a>
+			<a href="https://linkedin.com/" target="_blank"><img class="footer__icons" src="../public/linkedin_icon.svg" alt="linkedin icon"></a>
+			<a href="https://x.com/" target="_blank"><img class="footer__icons" src="../public/x_icon.svg" alt="x(twitter) icon"></a>
+		</div>
+	  </footer>
 	</body>
 </html>
