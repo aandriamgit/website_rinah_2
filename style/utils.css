@@ -211,6 +211,12 @@
 	margin-top: 5rem;
 }
 
+.clr_red
+{
+	color: var(--color-red);
+}
+
+
 @media (min-width: 320px)
 {
 	.container
