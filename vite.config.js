@@ -6,7 +6,8 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'index.html'),
-        portfolio: resolve(__dirname, 'pages/portfolio.html')
+        portfolio: resolve(__dirname, 'pages/portfolio.html'),
+		contact: resolve(__dirname, './pages/contact.html')
       },
       output: {
         assetFileNames: 'assets/[name][extname]',
