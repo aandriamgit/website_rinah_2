@@ -19,8 +19,6 @@ $mail->Host = "smtp.mailersend.net";
 $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
 $mail->Port = 587;
 
-$mail->Username = "MS_t5qlA7@trial-jpzkmgq17ovl059v.mlsender.net";
-$mail->Password = "mssp.hc0w0Gd.351ndgwqwrngzqx8.WdrxUeq";
 
 $mail->setFrom($email, $name);
 $mail->addAddress("ainarajaonah230@gmail.com");
