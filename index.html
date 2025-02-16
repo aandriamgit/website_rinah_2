@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<link href="https://api.fontshare.com/v2/css?f[]=poppins@400,500,600,700&display=swap" rel="stylesheet">
 	<script type="module" src="./src/main.js"></script>
-    <title>Wall Service</title>
+    <title>WAL Service</title>
   </head>
   <body>
 	  <header class="header container">
@@ -16,8 +16,8 @@
 		  <nav>
 		  	<ul class="header__menu">
 		  		<li> <a class="header__link" href="./pages/portfolio.html">Portfolio</a></li>
-		  		<li> <a class="header__link" href="#">Services</a></li>
-		  		<li> <a class="header__link" href="#">À propos</a></li>
+		  		<li> <a class="header__link" href="./pages/services.html">Services</a></li>
+		  		<li> <a class="header__link" href="./pages/a_propos.html">À propos</a></li>
 		  		<li> <a class="header__link" href="./pages/contact.html">Contact</a></li>
 		  	</ul>
 		  </nav>
@@ -26,24 +26,26 @@
   				<path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
 			</svg>
 		  </button>
-		  <button class="header__call_to_action custom_btn blue_btn"><a href="#"></a>
-			  Get Started
-		  </button>
-	  </header>
+		  <a href="./pages/contact.html">
+			  <button class="header__call_to_action custom_btn blue_btn">
+				  Get Started
+			  </button>
+		  </a>
+		  	  </header>
 	  <div class="mobile-nav">
 		  <nav>
 		  	<ul class="mobile-nav__menu">
 				<li>
-					<a href="#" class="mobile-nav__link">Portfolio<a/>
+					<a href="./pages/portfolio.html" class="mobile-nav__link">Portfolio<a/>
 				</li>
 				<li>
-					<a href="#" class="mobile-nav__link">Services<a/>
+					<a href="./pages/services.html" class="mobile-nav__link">Services<a/>
 				</li>
 				<li>
-					<a href="#" class="mobile-nav__link">a propos<a/>
+					<a href="./pages/a_propos.html" class="mobile-nav__link">a propos<a/>
 				</li>
 				<li>
-					<a href="#" class="mobile-nav__link">Contact<a/>
+					<a href="./pages/contact.html" class="mobile-nav__link">Contact<a/>
 				</li>
 		  	</ul>
 		  </nav>
@@ -53,7 +55,11 @@
 			<div class="hero__box">
 				<h1 class="mini__hero hero__title">Build the future</h1>
 				<p class="mini__hero hero__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse mattis mattis libero at dignissim. Donec faucibus lorem ipsum, eu volutpat orci dictum nec. Curabitur leo velit, accumsan lacinia imperdiet eget, posuere scelerisque urna. Aenean suscipit enim vel magna mattis, sit amet fringilla nibh auctor. </p>
-				<button class="mini__hero hero__calltoaction custom_btn blue_btn on_scroll">Learn More</button>
+				<a href="./pages/portfolio.html">
+					<button class="mini__hero hero__calltoaction custom_btn blue_btn on_scroll">
+						Learn More
+					</button>
+				</a>
 			</div>
 			<img class="hero__image" src="./public/team.svg" alt="hero_svg">
 		</section>
@@ -62,7 +68,7 @@
 			<p class="on_scroll from_bottom boxtwo__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse mattis mattis libero at dignissim. Donec faucibus lorem ipsum, eu volutpat orci dictum nec. Curabitur leo velit</p>
 		</section>	
 	  	<section class="cardsection container">
-			<a href="#" class="card container">
+			<a href="./pages/services.html" class="card container">
 				<img src="./public/one.webp" alt="image" class="card__image">
 				<div class="card__content">
 					<div class="card__title minicard">
@@ -73,7 +79,7 @@
 					</div>
 				</div>
 			</a>
-			<a href="#" class="card container">
+			<a href="./pages/services.html" class="card container">
 				<img src="./public/two.webp" alt="image" class="card__image">
 				<div class="card__content">
 					<div class="card__title minicard">
@@ -84,7 +90,7 @@
 					</div>
 				</div>
 			</a>
-			<a href="#" class="card container">
+			<a href="./pages/services.html" class="card container">
 				<img src="./public/three.webp" alt="image" class="card__image">
 				<div class="card__content">
 					<div class="card__title minicard">
@@ -95,7 +101,7 @@
 					</div>
 				</div>
 			</a>
-			<a href="#" class="card container">
+			<a href="./pages/services.html" class="card container">
 				<img src="./public/tenweb_media_RMK2QKHZ7.webp" alt="image" class="card__image">
 				<div class="card__content">
 					<div class="card__title minicard">
@@ -118,9 +124,9 @@
 				<div class="tb1 on_scroll from_left team__box1__text">
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse mattis mattis libero at dignissim. Donec faucibus 
 				</div>
-				<div class="tb1 on_scroll from_left team__box1__button">
+				<a href="./pages/a_propos.html" class="tb1 on_scroll from_left team__box1__button">
 					<button class="white_btn custom_btn">Learn More</button>
-				</div>
+				</a>
 			</div>
 			<div class="team__box2__lol">
 				<div class="team__box2 on_scroll from_bottom">
@@ -332,9 +338,9 @@
 				<p class="git-box__text">
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec faucibus 
 				</p>
-				<div class="git-box__btn">
+				<a href="./pages/contact.html" class="git-box__btn">
 					<button class="blue_btn custom_btn on_scroll">Contact Us</button>
-				</div>
+				</a>
 			</div>
 		</section>	
 	  	<section class="contact-section container">

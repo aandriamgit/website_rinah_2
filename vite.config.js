@@ -7,6 +7,8 @@ export default defineConfig({
       input: {
         main: resolve(__dirname, 'index.html'),
         portfolio: resolve(__dirname, 'pages/portfolio.html'),
+		services: resolve(__dirname, './pages/services.html'),
+		a_propos: resolve(__dirname, './pages/a_propos.html'),
 		contact: resolve(__dirname, './pages/contact.html')
       },
       output: {
