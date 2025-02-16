@@ -9,6 +9,7 @@
 @import './components/success_stories.css';
 @import './components/faq.css';
 @import './components/contact-section.css';
+@import './components/contact_page.css';
 @import './utils.css';
 
 :root
@@ -20,6 +21,7 @@
 	--color-peach: #fab387;
 	--color-mauve: #cba6f7;
 	--color-yellow: #f9e2af;
+	--color-mantle: #181825;
 	--size-xxs: 0.5rem;
 	--size-xs: 0.75rem;
 	--size-sm: 0.875rem;
