@@ -48,6 +48,19 @@
 	height: auto;
 }
 
+.header__icon
+{
+	cursor:	pointer;
+	color: var(--color-light);
+	border-style: solid;
+	width: 2rem;
+	height: auto;
+	background-color: var(--color-dark);
+	border-color: var(--color-dark);
+	display: block;
+	transition: color 0.5s, transform 0.5;
+}
+
 /* @media (min-width: 320px) */
 
 /* { */

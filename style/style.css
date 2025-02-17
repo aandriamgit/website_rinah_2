@@ -79,3 +79,15 @@ body::-webkit-scrollbar-thumb {
   background-color: darkgrey;
   outline: 1px solid slategrey;
 }
+
+.light-mode
+{
+	--color-light: #4c4f69;
+	--color-blue: #1e66f5;
+	--color-red: #d20f39;
+	--color-dark: #eff1f5;
+	--color-peach: #fe640b;
+	--color-mauve: #8839ef;
+	--color-yellow: #df8e1d;
+	--color-mantle: #dce0e8;
+}
