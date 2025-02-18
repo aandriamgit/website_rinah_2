@@ -1,0 +1,152 @@
+.lol_pf
+{
+	/* border: 1px solid var(--color-light); */
+	padding: 1rem;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+	border-radius: 0.5rem;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	transition: background-color 0.3s;
+}
+
+.pf_section
+{
+	display: flex;
+	flex-direction: column;
+}
+
+.pf_card
+{
+	margin-top: 1rem;
+	text-decoration: none;
+	color: var(--color-light);
+	display: flex;
+	flex-direction: column;
+}
+
+.pf_card__img
+{
+	width: 30rem;
+	height: auto;
+	border-radius: 0.3rem;
+}
+
+.pf_theline
+{
+	color: var(--color-peach);
+	width: 2rem;
+	height: 2rem;
+	transform: scaleX(5);
+	margin-left: 2.2rem;
+	margin-top: 1.5rem;
+}
+
+.pf_card__title
+{
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	text-transform: uppercase;
+	font-size: 1.5rem;
+	transition: opacity 0.3s;
+}
+
+.pf_card__title:hover
+{
+	opacity: 0.8;
+}
+
+.pf_card__content
+{
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
+}
+
+.pf_card__box1
+{
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+}
+
+.pf_card__minititle
+{
+	color: var(--color-blue);
+	text-transform: uppercase;
+}
+
+.lol_pf:hover
+{
+	background-color: var(--color-mantle);
+}
+
+/* @media (min-width: 320px) */
+/* { */
+/**/
+/* } */
+/**/
+/* @media (min-width: 375px) */
+/* { */
+/**/
+/* } */
+/**/
+/* @media (min-width: 425px) */
+/* { */
+/**/
+/* } */
+
+@media (min-width: 768px)
+{
+	.pf_card__img
+	{
+		width: 50rem;
+	}
+
+	.pf_card__content
+	{
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	.pf_card__box1
+	{
+		max-width: 30rem;
+	}
+
+	.pf_btn
+	{
+		font-size: 1.3rem;
+	}
+}
+
+@media (min-width: 1024px)
+{
+	.pf_section
+	{
+		flex-direction: row;
+		/* gap: 1rem; */
+	}
+
+	.pf_right
+	{
+		position: relative;
+		top: 7rem;
+	}
+
+	.pf_card__title
+	{
+		font-size: 2rem;
+	}
+}
+
+/* @media (min-width: 1440px) */
+/* { */
+/**/
+/* } */
+/**/
+/* @media (min-width: 1440px) */
+/* { */
+/**/
+/* } */
