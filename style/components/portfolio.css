@@ -16,6 +16,12 @@
 	flex-direction: column;
 }
 
+.pf_imgbox
+{
+	display: inline-block;
+	overflow: hidden;
+}
+
 .pf_card
 {
 	margin-top: 1rem;
@@ -30,6 +36,14 @@
 	width: 30rem;
 	height: auto;
 	border-radius: 0.3rem;
+	display: block;
+	transition: 0.3s ease-in-out ;
+}
+
+.pf_imgbox:hover img 
+{
+	/* filter: blur(0.5px); */
+    transform: scale(1.01);
 }
 
 .pf_theline
