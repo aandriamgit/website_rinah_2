@@ -17,6 +17,7 @@
 
 :root
 {
+	--ft_icons: #24273a;
 	--header-bg: rgba(30, 30, 46, 0.97);
 	--color-light: #cdd6f4;
 	--color-blue: #74c7ec;
@@ -86,6 +87,7 @@ body::-webkit-scrollbar-thumb {
 
 .light-mode
 {
+	--ft_icons: #4c4f69;
 	--header-bg: rgba(239, 241, 245, 0.9);
 	--color-light: #4c4f69;
 	--color-blue: #1e66f5;

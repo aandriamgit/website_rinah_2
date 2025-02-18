@@ -58,8 +58,9 @@
 	border-style: solid;
 	width: 2rem;
 	height: auto;
-	background-color: var(--color-dark);
-	border-color: var(--color-dark);
+	background-color: var(--header-bg);
+	border-color: var(--header-bg);
+	border-radius: 1rem;
 	display: block;
 	transition: color 0.5s, transform 0.5;
 }

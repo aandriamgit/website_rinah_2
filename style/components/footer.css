@@ -28,7 +28,10 @@
 
 .footer__icons
 {
-	background-color: var(--color-red);
+	border-radius: 1rem;
+	border: 1px solid var(--ft_icons);
+	padding: 0.005rem;
+	background-color: var(--ft_icons);
 	height: var(--size-lg);
 	width: auto;
 }
