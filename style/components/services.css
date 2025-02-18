@@ -4,6 +4,7 @@
 	border-radius: 0.5rem;
 	background-color: var(--color-mantle);
 	padding-bottom: 5rem;
+	margin-top: 6rem;
 }
 
 @media (min-width: 768px)
