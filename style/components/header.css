@@ -30,6 +30,7 @@
 .header__bars
 {
 	color: var(--color-light);
+	border-radius: 3rem;
 	border-style: solid;
 	width: var(--size-5xl);
 	height: var(--size-5xl);
