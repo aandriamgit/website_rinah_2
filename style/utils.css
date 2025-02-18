@@ -33,6 +33,12 @@
 /**/
 /* } */
 
+.dark_lol
+{
+	background-color: var(--color-mantle);
+	border-radius: 0.5rem;
+}
+
 .custom_btn
 {
 	border-style: solid;
