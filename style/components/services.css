@@ -1,0 +1,23 @@
+.reverse_section
+{
+	flex-direction: row;
+	border-radius: 0.5rem;
+	background-color: var(--color-mantle);
+	padding-bottom: 5rem;
+}
+
+@media (min-width: 768px)
+{
+	.reverse_section
+	{
+		flex-direction: column;
+	}
+}
+
+@media (min-width: 1024px)
+{
+	.reverse_section
+	{
+		flex-direction: row-reverse;
+	}
+}
