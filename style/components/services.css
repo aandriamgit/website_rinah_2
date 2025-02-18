@@ -1,6 +1,6 @@
 .reverse_section
 {
-	flex-direction: row;
+	flex-direction: column;
 	border-radius: 0.5rem;
 	background-color: var(--color-mantle);
 	padding-bottom: 5rem;
